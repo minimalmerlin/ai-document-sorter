@@ -1,0 +1,26 @@
+# AI Document Sorter - Python Dependencies
+
+# Core dependencies
+python-dotenv>=1.0.0      # Environment variable management
+watchdog>=3.0.0           # File system monitoring
+requests>=2.31.0          # HTTP requests for Ollama API
+
+# PDF and image processing
+pypdf>=3.17.0             # PDF text extraction
+pdf2image>=1.16.3         # PDF to image conversion
+Pillow>=10.0.0            # Image processing
+pytesseract>=0.3.10       # OCR engine wrapper
+
+# Note: External dependencies required:
+# - Tesseract OCR: Install via system package manager
+#   macOS: brew install tesseract tesseract-lang
+#   Ubuntu: sudo apt-get install tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng
+#   Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+#
+# - Poppler (for pdf2image):
+#   macOS: brew install poppler
+#   Ubuntu: sudo apt-get install poppler-utils
+#   Windows: Download from https://github.com/oschwartz10612/poppler-windows/releases
+#
+# - Ollama: Install from https://ollama.ai
+#   Then run: ollama pull llama3.2
