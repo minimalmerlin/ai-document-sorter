@@ -1,5 +1,11 @@
 # AI Document Sorter
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Privacy](https://img.shields.io/badge/privacy-100%25%20local-brightgreen.svg)
+![AI](https://img.shields.io/badge/AI-Ollama-orange.svg)
+![OCR](https://img.shields.io/badge/OCR-Tesseract-blue.svg)
+
 **Privacy-First Local Document Organization using AI and OCR**
 
 A Python application that automatically organizes your scanned documents using local AI (Ollama) for intelligent categorization and OCR (Tesseract) for text extraction. All processing happens locally on your machine—no cloud services, no data sharing, complete privacy.
